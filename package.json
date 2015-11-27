@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "scripts": {
     "clean": "rm -rf lib coverage",
-    "test": "./node_modules/mocha/bin/_mocha --reporter landing --compilers js:babel-core/register",
+    "test": "./node_modules/mocha/bin/_mocha --reporter spec --compilers js:babel-core/register",
     "test:watch": "npm test -- --watch",
     "build:lib": "babel ./src --out-dir ./lib",
     "build": "npm run build:lib",
