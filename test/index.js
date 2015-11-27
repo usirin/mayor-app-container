@@ -1,8 +1,8 @@
-import { assert } from 'chai'
+import expect from 'expect'
 import { Reactor } from 'nuclear-js'
 
 describe('test me', () => {
   it('works', () => {
-    assert(true);
+    expect(true).toExist()
   })
 })
