@@ -1,1 +1,1 @@
-# mayor-module-boilerplate
+# mayor-app-container
