@@ -2,7 +2,13 @@ import isFunction from 'lodash.isfunction'
 import isPlainObject from 'lodash.isplainobject'
 
 export default class ServiceProvider {
+  constructor(app) {
+    this.app = app
+  }
   register() {
+  }
+  getApp() {
+    return this.app
   }
 }
 
