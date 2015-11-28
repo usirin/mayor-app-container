@@ -2,7 +2,7 @@ import expect from 'expect'
 
 import Container from '../src/Container'
 
-describe.only('Container', () => {
+describe('Container', () => {
   it('works', () => {
     expect(new Container).toExist()
   })
